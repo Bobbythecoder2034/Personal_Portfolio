@@ -5,11 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Smiley Portfolio</title>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <style>
-        
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
 </head>
-<body>
-    
+<body class="bg-[url(https://res.cloudinary.com/db9mdr0ae/image/upload/v1739232121/parabolic-rectangle_dbolik.png)]">
+    <!-- The main is smaller in order to create an effect with the svg background and the smaller content. -->
+    <main class="bg-[#683d7a] mr-43 ml-43 h-full">
+
+        <!-- The navbar is outside of the rest of the content in order to keep it a full size equal to the main -->
+        <nav id="navbar" class="flex flex-col md:flex-row bg-[url(https://res.cloudinary.com/db9mdr0ae/image/upload/v1739229799/pngtree-purple-and-pink-square-rows-in-a-3d-illustration-monochrome-background-picture-image_4043971_jttzro.png)] justify-evenly flex-wrap items-center p-2">
+            <img src="https://res.cloudinary.com/db9mdr0ae/image/upload/v1739228878/Portfolio_vb3kea_c_crop_w_450_h_370_iarzfc.png" alt="logo" class="h-30">
+            <div class="h-10 w-30 bg-[#8437a6] rounded-3xl text-center flex justify-center items-center mt-2 ">Home</div>
+            <div class="h-10 w-30 bg-[#af00fa] rounded-3xl text-center flex justify-center items-center mt-2">Work</div>
+            <div class="h-10 w-30 bg-[#8437a6] rounded-3xl text-center flex justify-center items-center mt-2">Education</div>
+            <div class="h-10 w-30 bg-[#af00fa] rounded-3xl text-center flex justify-center items-center mt-2">Something</div>
+            <div class="h-10 w-30 bg-[#8437a6] rounded-3xl text-center flex justify-center items-center mt-2">Requests</div>
+        </nav>
+
+        <!-- This section tag is meant to keep everything centered without crushing the navbar -->
+        <section class="flex flex-col items-center p-12">
+
+        
+            <section id="hero_section" class="m-12 bg-[#47354f] w-full">
+                    
+                    <div class="mb-12">
+                        <img src="" alt="Kaden Smiley" class="">
+                        <div>
+                            <h3>Smiley, Kaden</h3>
+                            <h3>Amateur Coder</h3>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero minus deserunt ad illo, doloremque in enim vitae dignissimos fugit vel beatae pariatur consequuntur suscipit! Adipisci itaque cum inventore? Laboriosam laudantium nemo fugit aliquam sequi minus commodi aspernatur veniam nam dolores optio adipisci qui hic dicta, aperiam soluta aut expedita. Impedit!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam libero labore, ipsam aperiam eum voluptas velit dolore temporibus culpa dolores eveniet sapiente ducimus animi. Fugit, excepturi illum qui quaerat rem fuga delectus maiores eligendi neque provident, saepe doloremque repudiandae architecto animi debitis perferendis totam assumenda dolorum, omnis voluptatem ab possimus.</p>
+                    </div>
+            </section>
+            
+            <section id="project_gallery">
+
+            </section>
+            
+            <section id="contact_info">
+
+            </section>
+
+
+        </section>
+        <footer>
+            <!-- <img src="https://res.cloudinary.com/db9mdr0ae/image/upload/v1739228878/Portfolio_vb3kea_c_crop_w_450_h_370_iarzfc.png" alt="logo" class="h-20 rounded-[100px]"> -->
+            <!-- logo, motto, social media links, same links as the nav bar -->
+            <p></p>
+        </footer>
+    </main>
 </body>
 </html>
