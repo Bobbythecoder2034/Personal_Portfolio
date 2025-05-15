@@ -10,12 +10,14 @@
 </head>
 <body class="">
     <!-- The main is smaller in order to create an effect with the svg background and the smaller content. -->
-    <nav id="navbar" class="flex flex-col md:flex-row  justify-evenly flex-wrap items-center p-2">
-            <img src="https://res.cloudinary.com/db9mdr0ae/image/upload/v1739228878/Portfolio_vb3kea_c_crop_w_450_h_370_iarzfc.png" alt="logo" class="h-30">
-            <div class="h-10 w-30 bg-[#8437a6] rounded-3xl text-center flex justify-center items-center mt-2 "><a href="./index.html" class="no-underline">Home</a></div>
-            <div class="h-10 w-30 bg-[#af00fa] rounded-3xl text-center flex justify-center items-center mt-2"><a href="./pages/projects.html" class="no-underline">Projects</a></div>
-            <div class="h-10 w-30 bg-[#8437a6] rounded-3xl text-center flex justify-center items-center mt-2"><a href="./pages/about me.html" class="no-underline">About Me</a></div>
-            <div class="h-10 w-30 bg-[#af00fa] rounded-3xl text-center flex justify-center items-center mt-2"><a href="./pages/contact.html" class="no-underline">Contact</a></div>
+    <nav id="navbar" class="flex justify-evenly flex-wrap items-center p-2">
+            <img src="https://res.cloudinary.com/db9mdr0ae/image/upload/v1739228878/Portfolio_vb3kea_c_crop_w_450_h_370_iarzfc.png" alt="logo" class="h-30" id="logo">
+            <div class="flex flex-row flex-wrap justify-evenly items-center gap-3 md:gap-12 ml-3 mt-3 lg:items-between">
+                <div class="h-10 w-30 bg-[#8437a6] rounded-3xl text-center flex justify-center items-center lg:h-15 lg:w-40 lg:text-lg link hover:animate-bounce"><a href="./index.html" class="no-underline">Home</a></div>
+                <div class="h-10 w-30 bg-[#af00fa] rounded-3xl text-center flex justify-center items-center lg:h-15 lg:w-40 lg:text-lg link hover:animate-bounce"><a href="./pages/projects.html" class="no-underline">Projects</a></div>
+                <div class="h-10 w-30 bg-[#8437a6] rounded-3xl text-center flex justify-center items-center lg:h-15 lg:w-40 lg:text-lg link hover:animate-bounce"><a href="./pages/about me.html" class="no-underline">About Me</a></div>
+                <div class="h-10 w-30 bg-[#af00fa] rounded-3xl text-center flex justify-center items-center lg:h-15 lg:w-40 lg:text-lg link hover:animate-bounce"><a href="./pages/contact.html" class="no-underline">Contact</a></div>
+            </div>
     </nav>
     <main class="">
 
@@ -23,13 +25,13 @@
         
 
         <!-- This section tag is meant to keep everything centered without crushing the navbar -->
-        <section class="flex flex-col items-center p-20 w-full bg-[#574770]">
+        <section class="flex flex-col md:flex-row items-center p-20 w-full bg-[#574770]">
 
         
             <section id="hero_section" class="m-12 bg-[#6D43B0] w-full yellow">
                     
                     <div class="mb-12 flex justify-evenly pr-auto pl-auto md:pr-15 md:pl-15">
-                        <div class=" w-30 sm:w-40 md:w-60 lg:w-80 lg:h-80 rounded-lg bg-black text-white">Image</div>
+                        <img class=" w-30 sm:w-40 md:w-60 lg:w-80 lg:h-80 rounded-full animate-spin" src="/images/22697748.jpg">
                         <div class="flex flex-col items-center justify-evenly">
                             <h3 class="sm:text-2xl md:text-4xl lg:text-7xl">Smiley, Kaden</h3>
                             <h3 class="sm:text-2xl md:text-4xl lg:text-7xl">Amateur Coder</h3>
