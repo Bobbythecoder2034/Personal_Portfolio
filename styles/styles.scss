@@ -6,14 +6,25 @@ body{
 }
 main{
     background-color: #574770;
-    margin-top: 20rem;
+    margin-top: 24rem;
 }
+.title{
+    position: absolute;
+    top: 12rem;
+    left: 25vw;
+    background-color: #6D43B0;
+    width: 50vw;
+    height: 18rem;
+    z-index: 0;
+}
+
 nav{
     position: sticky;
     top: 0;
     background-color: #6D43B0;
     height: auto;
     flex-direction: column;
+    z-index: 1;
 }
 #logo{
     border-radius: 12px;
@@ -27,5 +38,10 @@ nav{
     }
     nav{
         flex-direction: row;
+    }
+}
+@media screen and (max-width:636px){
+    .title{
+        top: 18rem;
     }
 }
