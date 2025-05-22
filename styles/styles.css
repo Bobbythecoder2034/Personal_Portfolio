@@ -51,4 +51,83 @@ nav {
   .title {
     top: 18rem;
   }
+}
+input {
+  background-color: #543883;
+  height: 3rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+#result-box {
+  width: 70%;
+}
+
+#project-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.thumbnail {
+  width: 10rem;
+  padding: 3px;
+}
+
+.thumbnail-container {
+  display: flex;
+  gap: 4px;
+  height: auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  justify-content: space-between;
+}
+
+#project-analyzer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 4px;
+  width: 60%;
+  height: auto;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightgray;
+}
+
+.thumbnail:hover {
+  padding: 0;
+  border: 3.5px lightseagreen solid;
+}
+
+.analyzed {
+  width: 100%;
+}
+
+.captions {
+  background-color: lightgray;
+  color: black;
+  font-weight: bolder;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-Width: 720px) {
+  .thumbnail-container {
+    flex-direction: column;
+    height: auto;
+    margin: 1rem;
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=styles.css.map */

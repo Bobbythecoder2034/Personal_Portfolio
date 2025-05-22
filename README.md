@@ -1,7 +1,7 @@
 
 # Personal Portfolio
 
-This is a complimation of my accomplishments and history in coding.
+This is a complimation of my accomplishments and history in coding. It is still a work in progress, but it sums up my coding experience very well
 
 
 ## Authors

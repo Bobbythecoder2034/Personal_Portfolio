@@ -19,17 +19,26 @@
         </div>
     </nav>
     <section id="title" class="title yellow text-3xl lg:text-7xl flex justify-center items-center p-2 font-extrabold md:text-5xl text-center">
-        Call Me, Maybe
+        Reach Out
     </section>
-    <main>
-        
-        <section id="contact_info mt-5">
-            <ul class="list-none text-white gap-2 md:text-xl sm:text-base text-sm">
-                <li>Gmail: ksmile939@west-mec.org</li>
-                <li>Github: Bobbythecoder2034</li>
-                <li>Mobile: 111-111-1111</li>
-            </ul>
-        </section>
+    <main class="flex flex-col items-center h-160 p-5">
+        <input type="text" id="email" placeholder="Enter Your Email Here" class="yellow m-1">
+        <input type="text" id="name" placeholder="Enter Your Name Here" class="yellow m-1">
+        <input type="text" id="subject" placeholder="What Is The Subject" class="yellow m-1">
+        <input type="textarea" id="content" placeholder="Enter Content Here" class="yellow m-1">
+        <input type="submit" id="submit-button" class="yellow m-1">
+        <div id="result-box" class="flex flex-col">
+            <h2>Return Email:</h2>
+            <p id="email-sum" class="text-center"></p>
+            <h2>Name:</h2>
+            <p id="name-sum" class="text-center"></p>
+            <h2>Subject:</h2>
+            <p id="subject-sum" class="text-center"></p>
+            <h2>Content:</h2>
+            <p id="content-sum" class="text-center"></p>
+            <br>
+            <h2>Thank You</h2>
+        </div>
     </main>
     <script src="../script.js"></script>
 </body>
